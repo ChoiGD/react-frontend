@@ -4,7 +4,7 @@ import UsersList from "../components/UsersList";
 
 const Users = () =>{
     const USERS = [
-        {id:'u1', name:'Choi GD', image:'...', places:3}
+        {id:'u1', name:'Choi GD', image:'https://picsum.photos/id/237/200/300', places:3}
     ];
 
     return <UsersList items={USERS}/>;
